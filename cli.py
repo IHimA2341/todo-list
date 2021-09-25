@@ -142,4 +142,4 @@ if __name__ == "__main__":
     
     while True:
         inputt = input("What would you like to do? ")
-        performoperation(inputt)
+        performoperation(inputt.lower())
